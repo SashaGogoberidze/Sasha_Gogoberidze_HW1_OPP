@@ -1,0 +1,319 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#main_fon{
+    top: 170px;
+    left: 50px;
+    position: absolute;
+    height: 734px; 
+    width: 800px;
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
+}
+
+#problemm{
+    top: 90px;
+    left: 40px;
+    position: absolute;
+}
+
+
+#pass_title{
+    padding-top:39px;
+    padding-left:30px;
+}
+
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: italic;
+    font-style: normal;
+    letter-spacing: 0.6em;
+    word-spacing: 0.25em;
+}
+
+@font-face {
+    font-family: 'Kreadon';
+    src: local('Kreadon.ttf'), url(/Kreadon.ttf.ttf);
+}
+
+.vidanstr1{
+    font-family: 'Kreadon';
+    padding-top: 4px;
+    padding-left: 145px;
+}
+
+.vidanstr2{
+    font-family: 'Kreadon';
+    top: 105px;
+    left: 145px;
+    position: absolute;
+    word-spacing: 0.65em;
+}
+
+.vidanstr3{
+    font-family: 'Kreadon';
+    padding-top: 15px;
+    padding-left: 145px;
+}
+
+
+.numbers1{
+    top: 160px;
+    left: 430px;
+    position: absolute;
+    font-size: 19px;
+    color: #990000;
+    transform: rotate(90deg);
+}
+
+.vidanstrdata{
+    font-family: 'Kreadon';
+    top: 159px;
+    left: 110px;
+    position: absolute;
+    word-spacing: 0.65em;
+    font-size: 18px;
+}
+
+.vidanstrcode{
+    font-family: 'Kreadon';
+    top: 159px;
+    left: 300px;
+    position: absolute;
+    word-spacing: 0.65em;
+    font-size: 18px;
+}
+
+.podpis{
+    padding-top: 30px;
+    padding-left: 55px;
+    float: left;
+}
+
+.podpis1{
+    padding-top: 60px;
+    padding-left: 115px;
+}
+
+.passfoto{
+    padding-top: 143px;
+    padding-left: 22px;
+    float: left;
+}
+
+.hfamilia{
+    padding-top: 105px;
+    padding-left: 250px;
+}
+
+.hname{
+    padding-top: 15px;
+    padding-left: 250px;
+}
+
+.numbers2{
+    top: 520px;
+    left: 430px;
+    position: absolute;
+    font-size: 19px;
+    color: #990000;
+    transform: rotate(90deg);
+}
+
+
+.hfname{
+    top: 492px;
+    left: 249px;
+    position: absolute;
+}
+
+.hpol{
+    padding-top: 17px;
+    padding-left: 40px;
+    float: left;
+}
+
+.hborn{
+    padding-top: 14px;
+    padding-left: 310px;
+    font-size: 18px;
+}
+
+.hpborn1{
+    padding-top: 12px;
+    padding-left: 250px;
+    word-spacing: 0.7em;
+}
+
+.change{
+    top: 60px;
+    left: 700px;
+    position: absolute;
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: #996666;
+    box-shadow: 2px 3px #663333;
+}
+
+.dom{
+    top: 130px;
+    left: 700px;
+    position: absolute;
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: #996666;
+    box-shadow: 2px 3px #663333;
+}
+
+.back_to_passport{
+    top: 500px;
+    left: 1400px;
+    position: absolute;
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: #996666;
+    box-shadow: 2px 3px #663333;
+}
+
+#someinfo{
+    top: 90px;
+    left: 50px;
+    right: 360px;
+    position: absolute;  
+}
+
+.sign {
+    float: center;
+    padding: 7px;
+    margin: 10px 0 5px 5px;
+}
+
+.sign figcaption {
+    margin: 0 auto 5px
+}
+
+#sidebar {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 5px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+}
+
+#content {
+        float: center;
+        width: 680px; 
+        padding: 10px; 
+        background: #ffffff; 
+        border-radius: 5px;
+        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+      }
+      
+td {
+    padding: 30px
+}
+
+fieldset.one
+{
+	color: #4b0082;
+	border-color: black;
+	margin-top: 20px;
+	margin-right: 50%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 15px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-weight: bold;
+	clear:both; 
+	text-align:right;
+	line-height:px;
+	background-color: #e6e6fa;
+}
+fieldset.two
+{
+	color: #4b0082;
+	border-color: cyan;
+	margin-top: 20px;
+	margin-right: 50%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-weight: normal;
+	clear:both; 
+	line-height:25px;
+	background-color: #e6e6fa;
+}
+label 
+{
+	float:left;
+	padding-right:20px;
+	font-size: 20px;
+
+}
+
+
+legend
+{
+	text-align: right;
+	color: #800080;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+legendd
+{
+	text-align: left;
+	color: #800080;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+legenddd
+{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+input.radio
+{
+	font-weight: normal;
+}
+
+#headerr {
+    position: relative;
+    height: 200px;
+    background-color: #ffffff;
+    background-image: url(restphone.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
